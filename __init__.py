@@ -2,7 +2,7 @@ from flask import Flask,render_template
 
 app = Flask(__name__) #creating flask app name
 
-@app.route('/')
+@app.route('/') #comm
 def home():
     return render_template("index.html")
 
