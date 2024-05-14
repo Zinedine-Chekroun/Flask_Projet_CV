@@ -7,7 +7,8 @@ app = Flask(__name__) #creating flask app name
 
 
 # Configuration de l'API OpenAI
-openai.api_key = 'sk-proj-tF6vKUTIOXfDxdkhHVhnT3BlbkFJ0ikNsj2QsfOsIm3DxRDU'
+openai.api_key = None
+openai.api_base = "https://api.openai.com/v1"
 
 
 
